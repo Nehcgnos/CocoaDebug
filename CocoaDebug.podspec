@@ -15,16 +15,16 @@ Pod::Spec.new do |s|
   s.requires_arc        = false
   s.requires_arc        = 
                           [
-                          'Sources/App/**/*.m',
-                          'Sources/Categories/**/*.m',
-                          'Sources/Core/**/*.m',
-                          'Sources/CustomHTTPProtocol/**/*.m',
-                          'Sources/Logs/**/*.m',
-                          'Sources/Network/**/*.m',
-                          'Sources/Sandbox/**/*.m',
-                          'Sources/Swizzling/**/*.m',
-                          'Sources/Window/**/*.m',
-                          'Sources/fishhook/**/*.c',
+                          'Sources/CocoaDebug/App/**/*.m',
+                          'Sources/CocoaDebug/Categories/**/*.m',
+                          'Sources/CocoaDebug/Core/**/*.m',
+                          'Sources/CocoaDebug/CustomHTTPProtocol/**/*.m',
+                          'Sources/CocoaDebug/Logs/**/*.m',
+                          'Sources/CocoaDebug/Network/**/*.m',
+                          'Sources/CocoaDebug/Sandbox/**/*.m',
+                          'Sources/CocoaDebug/Swizzling/**/*.m',
+                          'Sources/CocoaDebug/Window/**/*.m',
+                          'Sources/CocoaDebug/fishhook/**/*.c',
                           ]
   # s.dependency "React/Core"
   # s.dependency "Protobuf"

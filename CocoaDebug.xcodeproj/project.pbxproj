@@ -638,6 +638,46 @@
 			path = CocoaDebugTests;
 			sourceTree = "<group>";
 		};
+		F90A2B342C08852000DC18F3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F989404A2C086DA6005FE316 /* _BacktraceLogger.h */,
+				F989402D2C086DA6005FE316 /* _CacheStoragePolicy.h */,
+				F989402F2C086DA6005FE316 /* _CanonicalRequest.h */,
+				F98940312C086DA6005FE316 /* _CustomHTTPProtocol.h */,
+				F989404C2C086DA6005FE316 /* _DebugConsoleLabel.h */,
+				F98940222C086DA6005FE316 /* _DeviceUtil.h */,
+				F98940242C086DA6005FE316 /* _DeviceUtil+Constant.h */,
+				F98941132C086DA6005FE316 /* _DirectoryContentsTableViewController.h */,
+				F98941152C086DA6005FE316 /* _FileInfo.h */,
+				F98941172C086DA6005FE316 /* _FilePreviewController.h */,
+				F98941192C086DA6005FE316 /* _FileTableViewCell.h */,
+				F98940372C086DA6005FE316 /* _fishhook.h */,
+				F98940522C086DA6005FE316 /* _HttpDatasource.h */,
+				F98940542C086DA6005FE316 /* _HttpModel.h */,
+				F989411B2C086DA6005FE316 /* _ImageController.h */,
+				F989411D2C086DA6005FE316 /* _ImageResources.h */,
+				F98940572C086DA6005FE316 /* _NetworkHelper.h */,
+				F989403A2C086DA6005FE316 /* _ObjcLog.h */,
+				F989403C2C086DA6005FE316 /* _OCLoggerFormat.h */,
+				F989403E2C086DA6005FE316 /* _OCLogHelper.h */,
+				F98940402C086DA6005FE316 /* _OCLogModel.h */,
+				F98940422C086DA6005FE316 /* _OCLogStoreManager.h */,
+				F98940332C086DA6005FE316 /* _QNSURLSessionDemux.h */,
+				F989404E2C086DA6005FE316 /* _RunloopMonitor.h */,
+				F989411F2C086DA6005FE316 /* _Sandboxer-Header.h */,
+				F98941202C086DA6005FE316 /* _Sandboxer.h */,
+				F98941222C086DA6005FE316 /* _SandboxerHelper.h */,
+				F98941252C086DA6005FE316 /* _Swizzling.h */,
+				F98940262C086DA6005FE316 /* CocoaDebug.h */,
+				F98940292C086DA6005FE316 /* CocoaDebugDeviceInfo.h */,
+				F98940452C086DA6005FE316 /* CocoaDebugTool.h */,
+				F989400C2C086DA6005FE316 /* GPBMessage+CocoaDebug.h */,
+				F989400E2C086DA6005FE316 /* NSObject+CocoaDebug.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		F98940012C086D7E005FE316 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -666,9 +706,7 @@
 		F98940102C086DA6005FE316 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				F989400C2C086DA6005FE316 /* GPBMessage+CocoaDebug.h */,
 				F989400D2C086DA6005FE316 /* GPBMessage+CocoaDebug.m */,
-				F989400E2C086DA6005FE316 /* NSObject+CocoaDebug.h */,
 				F989400F2C086DA6005FE316 /* NSObject+CocoaDebug.m */,
 			);
 			path = Categories;
@@ -678,12 +716,8 @@
 			isa = PBXGroup;
 			children = (
 				F98940212C086DA6005FE316 /* _AutoLaunch.m */,
-				F98940222C086DA6005FE316 /* _DeviceUtil.h */,
 				F98940232C086DA6005FE316 /* _DeviceUtil.m */,
-				F98940242C086DA6005FE316 /* _DeviceUtil+Constant.h */,
 				F98940252C086DA6005FE316 /* _DeviceUtil+Constant.m */,
-				F98940262C086DA6005FE316 /* CocoaDebug.h */,
-				F98940292C086DA6005FE316 /* CocoaDebugDeviceInfo.h */,
 				F989402A2C086DA6005FE316 /* CocoaDebugDeviceInfo.m */,
 			);
 			path = Core;
@@ -692,13 +726,9 @@
 		F98940352C086DA6005FE316 /* CustomHTTPProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				F989402D2C086DA6005FE316 /* _CacheStoragePolicy.h */,
 				F989402E2C086DA6005FE316 /* _CacheStoragePolicy.m */,
-				F989402F2C086DA6005FE316 /* _CanonicalRequest.h */,
 				F98940302C086DA6005FE316 /* _CanonicalRequest.m */,
-				F98940312C086DA6005FE316 /* _CustomHTTPProtocol.h */,
 				F98940322C086DA6005FE316 /* _CustomHTTPProtocol.m */,
-				F98940332C086DA6005FE316 /* _QNSURLSessionDemux.h */,
 				F98940342C086DA6005FE316 /* _QNSURLSessionDemux.m */,
 			);
 			path = CustomHTTPProtocol;
@@ -708,7 +738,6 @@
 			isa = PBXGroup;
 			children = (
 				F98940362C086DA6005FE316 /* _fishhook.c */,
-				F98940372C086DA6005FE316 /* _fishhook.h */,
 			);
 			path = fishhook;
 			sourceTree = "<group>";
@@ -717,17 +746,11 @@
 			isa = PBXGroup;
 			children = (
 				F98940392C086DA6005FE316 /* _NSLogHook.m */,
-				F989403A2C086DA6005FE316 /* _ObjcLog.h */,
 				F989403B2C086DA6005FE316 /* _ObjcLog.m */,
-				F989403C2C086DA6005FE316 /* _OCLoggerFormat.h */,
 				F989403D2C086DA6005FE316 /* _OCLoggerFormat.m */,
-				F989403E2C086DA6005FE316 /* _OCLogHelper.h */,
 				F989403F2C086DA6005FE316 /* _OCLogHelper.m */,
-				F98940402C086DA6005FE316 /* _OCLogModel.h */,
 				F98940412C086DA6005FE316 /* _OCLogModel.m */,
-				F98940422C086DA6005FE316 /* _OCLogStoreManager.h */,
 				F98940432C086DA6005FE316 /* _OCLogStoreManager.m */,
-				F98940452C086DA6005FE316 /* CocoaDebugTool.h */,
 				F98940462C086DA6005FE316 /* CocoaDebugTool.m */,
 			);
 			path = Logs;
@@ -736,11 +759,8 @@
 		F98940512C086DA6005FE316 /* Monitor */ = {
 			isa = PBXGroup;
 			children = (
-				F989404A2C086DA6005FE316 /* _BacktraceLogger.h */,
 				F989404B2C086DA6005FE316 /* _BacktraceLogger.m */,
-				F989404C2C086DA6005FE316 /* _DebugConsoleLabel.h */,
 				F989404D2C086DA6005FE316 /* _DebugConsoleLabel.m */,
-				F989404E2C086DA6005FE316 /* _RunloopMonitor.h */,
 				F989404F2C086DA6005FE316 /* _RunloopMonitor.m */,
 			);
 			path = Monitor;
@@ -749,11 +769,8 @@
 		F989405F2C086DA6005FE316 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				F98940522C086DA6005FE316 /* _HttpDatasource.h */,
 				F98940532C086DA6005FE316 /* _HttpDatasource.m */,
-				F98940542C086DA6005FE316 /* _HttpModel.h */,
 				F98940552C086DA6005FE316 /* _HttpModel.m */,
-				F98940572C086DA6005FE316 /* _NetworkHelper.h */,
 				F98940582C086DA6005FE316 /* _NetworkHelper.m */,
 			);
 			path = Network;
@@ -961,22 +978,13 @@
 		F98941242C086DA6005FE316 /* Sandbox */ = {
 			isa = PBXGroup;
 			children = (
-				F98941132C086DA6005FE316 /* _DirectoryContentsTableViewController.h */,
 				F98941142C086DA6005FE316 /* _DirectoryContentsTableViewController.m */,
-				F98941152C086DA6005FE316 /* _FileInfo.h */,
 				F98941162C086DA6005FE316 /* _FileInfo.m */,
-				F98941172C086DA6005FE316 /* _FilePreviewController.h */,
 				F98941182C086DA6005FE316 /* _FilePreviewController.m */,
-				F98941192C086DA6005FE316 /* _FileTableViewCell.h */,
 				F989411A2C086DA6005FE316 /* _FileTableViewCell.m */,
-				F989411B2C086DA6005FE316 /* _ImageController.h */,
 				F989411C2C086DA6005FE316 /* _ImageController.m */,
-				F989411D2C086DA6005FE316 /* _ImageResources.h */,
 				F989411E2C086DA6005FE316 /* _ImageResources.m */,
-				F989411F2C086DA6005FE316 /* _Sandboxer-Header.h */,
-				F98941202C086DA6005FE316 /* _Sandboxer.h */,
 				F98941212C086DA6005FE316 /* _Sandboxer.m */,
-				F98941222C086DA6005FE316 /* _SandboxerHelper.h */,
 				F98941232C086DA6005FE316 /* _SandboxerHelper.m */,
 			);
 			path = Sandbox;
@@ -985,7 +993,6 @@
 		F98941282C086DA6005FE316 /* Swizzling */ = {
 			isa = PBXGroup;
 			children = (
-				F98941252C086DA6005FE316 /* _Swizzling.h */,
 				F98941262C086DA6005FE316 /* _Swizzling.m */,
 				F98941272C086DA6005FE316 /* _WKWebView+Swizzling.m */,
 			);
@@ -1010,6 +1017,7 @@
 		F98941322C086DA6005FE316 /* CocoaDebug */ = {
 			isa = PBXGroup;
 			children = (
+				F90A2B342C08852000DC18F3 /* include */,
 				F98942452C086DAE005FE316 /* Supporting Files */,
 				F98940102C086DA6005FE316 /* Categories */,
 				F989402C2C086DA6005FE316 /* Core */,

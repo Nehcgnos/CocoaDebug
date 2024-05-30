@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../../CocoaDebug"
 
 SPEC CHECKSUMS:
-  CocoaDebug: 2c4be4886fcae695abdc9b1fb3f0ded912077259
+  CocoaDebug: 5f0424f5aedaf93010735c1941b83cdf7e58300c
 
 PODFILE CHECKSUM: 2ecb66abe8a089cd38f5c60c80d4afbd05773da5
 

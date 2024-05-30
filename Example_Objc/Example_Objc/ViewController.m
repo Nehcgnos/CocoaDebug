@@ -43,6 +43,7 @@
     //Custom Messages
     [CocoaDebugTool logWithString:@"Custom Messages...."];
     [CocoaDebugTool logWithString:@"Custom Messages...." color:[UIColor redColor]];
+    [CocoaDebugTool logWithString:@"Orange messages...." color:[UIColor orangeColor]];
     
     
     //save image

@@ -10,15 +10,6 @@
 		3826DE7924EE7CDE003DE040 /* CocoaDebugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3826DE7824EE7CDE003DE040 /* CocoaDebugTests.m */; };
 		3826DE7B24EE7CDE003DE040 /* CocoaDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380965722414E04F00382668 /* CocoaDebug.framework */; platformFilter = ios; };
 		3826DEA824EE854E003DE040 /* copy_and_codesign.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3826DEA724EE854E003DE040 /* copy_and_codesign.sh */; };
-		F98941332C086DA6005FE316 /* _CrashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940022C086DA6005FE316 /* _CrashModel.swift */; };
-		F98941342C086DA6005FE316 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940032C086DA6005FE316 /* AboutViewController.swift */; };
-		F98941352C086DA6005FE316 /* AppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940042C086DA6005FE316 /* AppInfoViewController.swift */; };
-		F98941362C086DA6005FE316 /* CrashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940052C086DA6005FE316 /* CrashCell.swift */; };
-		F98941372C086DA6005FE316 /* CrashDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940062C086DA6005FE316 /* CrashDetailViewController.swift */; };
-		F98941382C086DA6005FE316 /* CrashListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940072C086DA6005FE316 /* CrashListViewController.swift */; };
-		F98941392C086DA6005FE316 /* CrashLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940082C086DA6005FE316 /* CrashLogger.swift */; };
-		F989413A2C086DA6005FE316 /* CrashStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940092C086DA6005FE316 /* CrashStoreManager.swift */; };
-		F989413B2C086DA6005FE316 /* IgnoredURLsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989400A2C086DA6005FE316 /* IgnoredURLsViewController.swift */; };
 		F989413C2C086DA6005FE316 /* GPBMessage+CocoaDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = F989400C2C086DA6005FE316 /* GPBMessage+CocoaDebug.h */; };
 		F989413D2C086DA6005FE316 /* GPBMessage+CocoaDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = F989400D2C086DA6005FE316 /* GPBMessage+CocoaDebug.m */; };
 		F989413E2C086DA6005FE316 /* NSObject+CocoaDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = F989400E2C086DA6005FE316 /* NSObject+CocoaDebug.h */; };
@@ -29,11 +20,8 @@
 		F98941432C086DA6005FE316 /* _DeviceUtil+Constant.h in Headers */ = {isa = PBXBuildFile; fileRef = F98940242C086DA6005FE316 /* _DeviceUtil+Constant.h */; };
 		F98941442C086DA6005FE316 /* _DeviceUtil+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = F98940252C086DA6005FE316 /* _DeviceUtil+Constant.m */; };
 		F98941452C086DA6005FE316 /* CocoaDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = F98940262C086DA6005FE316 /* CocoaDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F98941462C086DA6005FE316 /* CocoaDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940272C086DA6005FE316 /* CocoaDebug.swift */; };
-		F98941472C086DA6005FE316 /* CocoaDebug+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940282C086DA6005FE316 /* CocoaDebug+Extensions.swift */; };
 		F98941482C086DA6005FE316 /* CocoaDebugDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F98940292C086DA6005FE316 /* CocoaDebugDeviceInfo.h */; };
 		F98941492C086DA6005FE316 /* CocoaDebugDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F989402A2C086DA6005FE316 /* CocoaDebugDeviceInfo.m */; };
-		F989414A2C086DA6005FE316 /* CocoaDebugSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989402B2C086DA6005FE316 /* CocoaDebugSettings.swift */; };
 		F989414B2C086DA6005FE316 /* _CacheStoragePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = F989402D2C086DA6005FE316 /* _CacheStoragePolicy.h */; };
 		F989414C2C086DA6005FE316 /* _CacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F989402E2C086DA6005FE316 /* _CacheStoragePolicy.m */; };
 		F989414D2C086DA6005FE316 /* _CanonicalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F989402F2C086DA6005FE316 /* _CanonicalRequest.h */; };
@@ -55,31 +43,20 @@
 		F989415D2C086DA6005FE316 /* _OCLogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F98940412C086DA6005FE316 /* _OCLogModel.m */; };
 		F989415E2C086DA6005FE316 /* _OCLogStoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F98940422C086DA6005FE316 /* _OCLogStoreManager.h */; };
 		F989415F2C086DA6005FE316 /* _OCLogStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F98940432C086DA6005FE316 /* _OCLogStoreManager.m */; };
-		F98941602C086DA6005FE316 /* _SwiftLogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940442C086DA6005FE316 /* _SwiftLogHelper.swift */; };
 		F98941612C086DA6005FE316 /* CocoaDebugTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F98940452C086DA6005FE316 /* CocoaDebugTool.h */; };
 		F98941622C086DA6005FE316 /* CocoaDebugTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F98940462C086DA6005FE316 /* CocoaDebugTool.m */; };
-		F98941632C086DA6005FE316 /* LogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940472C086DA6005FE316 /* LogCell.swift */; };
-		F98941642C086DA6005FE316 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940482C086DA6005FE316 /* LogViewController.swift */; };
 		F98941652C086DA6005FE316 /* _BacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F989404A2C086DA6005FE316 /* _BacktraceLogger.h */; };
 		F98941662C086DA6005FE316 /* _BacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F989404B2C086DA6005FE316 /* _BacktraceLogger.m */; };
 		F98941672C086DA6005FE316 /* _DebugConsoleLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F989404C2C086DA6005FE316 /* _DebugConsoleLabel.h */; };
 		F98941682C086DA6005FE316 /* _DebugConsoleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F989404D2C086DA6005FE316 /* _DebugConsoleLabel.m */; };
 		F98941692C086DA6005FE316 /* _RunloopMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = F989404E2C086DA6005FE316 /* _RunloopMonitor.h */; };
 		F989416A2C086DA6005FE316 /* _RunloopMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = F989404F2C086DA6005FE316 /* _RunloopMonitor.m */; };
-		F989416B2C086DA6005FE316 /* FPSCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940502C086DA6005FE316 /* FPSCounter.swift */; };
 		F989416C2C086DA6005FE316 /* _HttpDatasource.h in Headers */ = {isa = PBXBuildFile; fileRef = F98940522C086DA6005FE316 /* _HttpDatasource.h */; };
 		F989416D2C086DA6005FE316 /* _HttpDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = F98940532C086DA6005FE316 /* _HttpDatasource.m */; };
 		F989416E2C086DA6005FE316 /* _HttpModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F98940542C086DA6005FE316 /* _HttpModel.h */; };
 		F989416F2C086DA6005FE316 /* _HttpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F98940552C086DA6005FE316 /* _HttpModel.m */; };
-		F98941702C086DA6005FE316 /* _HTTPModel+cURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940562C086DA6005FE316 /* _HTTPModel+cURL.swift */; };
 		F98941712C086DA6005FE316 /* _NetworkHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F98940572C086DA6005FE316 /* _NetworkHelper.h */; };
 		F98941722C086DA6005FE316 /* _NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F98940582C086DA6005FE316 /* _NetworkHelper.m */; };
-		F98941732C086DA6005FE316 /* JsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940592C086DA6005FE316 /* JsonViewController.swift */; };
-		F98941742C086DA6005FE316 /* NetworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989405A2C086DA6005FE316 /* NetworkCell.swift */; };
-		F98941752C086DA6005FE316 /* NetworkDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989405B2C086DA6005FE316 /* NetworkDetailCell.swift */; };
-		F98941762C086DA6005FE316 /* NetworkDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989405C2C086DA6005FE316 /* NetworkDetailModel.swift */; };
-		F98941772C086DA6005FE316 /* NetworkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989405D2C086DA6005FE316 /* NetworkDetailViewController.swift */; };
-		F98941782C086DA6005FE316 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989405E2C086DA6005FE316 /* NetworkViewController.swift */; };
 		F98941792C086DA6005FE316 /* icon_file_type_7z.png in Resources */ = {isa = PBXBuildFile; fileRef = F98940602C086DA6005FE316 /* icon_file_type_7z.png */; };
 		F989417A2C086DA6005FE316 /* icon_file_type_7z@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F98940612C086DA6005FE316 /* icon_file_type_7z@2x.png */; };
 		F989417B2C086DA6005FE316 /* icon_file_type_7z@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F98940622C086DA6005FE316 /* icon_file_type_7z@3x.png */; };
@@ -276,14 +253,39 @@
 		F989423A2C086DA6005FE316 /* _Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = F98941252C086DA6005FE316 /* _Swizzling.h */; };
 		F989423B2C086DA6005FE316 /* _Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = F98941262C086DA6005FE316 /* _Swizzling.m */; };
 		F989423C2C086DA6005FE316 /* _WKWebView+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = F98941272C086DA6005FE316 /* _WKWebView+Swizzling.m */; };
-		F989423D2C086DA6005FE316 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98941292C086DA6005FE316 /* Bubble.swift */; };
-		F989423E2C086DA6005FE316 /* CocoaDebugNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989412A2C086DA6005FE316 /* CocoaDebugNavigationController.swift */; };
-		F989423F2C086DA6005FE316 /* CocoaDebugTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989412B2C086DA6005FE316 /* CocoaDebugTabBarController.swift */; };
-		F98942402C086DA6005FE316 /* CocoaDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989412C2C086DA6005FE316 /* CocoaDebugViewController.swift */; };
-		F98942412C086DA6005FE316 /* CocoaDebugWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989412D2C086DA6005FE316 /* CocoaDebugWindow.swift */; };
-		F98942422C086DA6005FE316 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989412E2C086DA6005FE316 /* Color.swift */; };
-		F98942432C086DA6005FE316 /* UIBlockingBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989412F2C086DA6005FE316 /* UIBlockingBubble.swift */; };
-		F98942442C086DA6005FE316 /* WindowHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98941302C086DA6005FE316 /* WindowHelper.swift */; };
+		F989424E2C087A2B005FE316 /* CocoaDebugSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F989424D2C087A2B005FE316 /* CocoaDebugSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98942532C087AE0005FE316 /* CocoaDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380965722414E04F00382668 /* CocoaDebug.framework */; platformFilter = ios; };
+		F98942542C087CC7005FE316 /* _CrashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940022C086DA6005FE316 /* _CrashModel.swift */; };
+		F98942552C087CC9005FE316 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940032C086DA6005FE316 /* AboutViewController.swift */; };
+		F98942562C087CCB005FE316 /* AppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940042C086DA6005FE316 /* AppInfoViewController.swift */; };
+		F98942572C087CCD005FE316 /* CrashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940052C086DA6005FE316 /* CrashCell.swift */; };
+		F98942582C087CCF005FE316 /* CrashDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940062C086DA6005FE316 /* CrashDetailViewController.swift */; };
+		F98942592C087CD3005FE316 /* CrashLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940082C086DA6005FE316 /* CrashLogger.swift */; };
+		F989425A2C087CD3005FE316 /* CrashListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940072C086DA6005FE316 /* CrashListViewController.swift */; };
+		F989425B2C087CD3005FE316 /* CrashStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940092C086DA6005FE316 /* CrashStoreManager.swift */; };
+		F989425C2C087CD6005FE316 /* IgnoredURLsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989400A2C086DA6005FE316 /* IgnoredURLsViewController.swift */; };
+		F989425E2C087D37005FE316 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989405E2C086DA6005FE316 /* NetworkViewController.swift */; };
+		F989425F2C087D37005FE316 /* NetworkDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989405B2C086DA6005FE316 /* NetworkDetailCell.swift */; };
+		F98942602C087D37005FE316 /* NetworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989405A2C086DA6005FE316 /* NetworkCell.swift */; };
+		F98942612C087D37005FE316 /* NetworkDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989405C2C086DA6005FE316 /* NetworkDetailModel.swift */; };
+		F98942622C087D37005FE316 /* _HTTPModel+cURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940562C086DA6005FE316 /* _HTTPModel+cURL.swift */; };
+		F98942632C087D37005FE316 /* JsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940592C086DA6005FE316 /* JsonViewController.swift */; };
+		F98942642C087D37005FE316 /* NetworkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989405D2C086DA6005FE316 /* NetworkDetailViewController.swift */; };
+		F98942652C087D3C005FE316 /* UIBlockingBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989412F2C086DA6005FE316 /* UIBlockingBubble.swift */; };
+		F98942662C087D3C005FE316 /* WindowHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98941302C086DA6005FE316 /* WindowHelper.swift */; };
+		F98942672C087D3C005FE316 /* CocoaDebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989412C2C086DA6005FE316 /* CocoaDebugViewController.swift */; };
+		F98942682C087D3C005FE316 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98941292C086DA6005FE316 /* Bubble.swift */; };
+		F98942692C087D3C005FE316 /* CocoaDebugWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989412D2C086DA6005FE316 /* CocoaDebugWindow.swift */; };
+		F989426A2C087D3C005FE316 /* CocoaDebugNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989412A2C086DA6005FE316 /* CocoaDebugNavigationController.swift */; };
+		F989426B2C087D3C005FE316 /* CocoaDebugTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989412B2C086DA6005FE316 /* CocoaDebugTabBarController.swift */; };
+		F989426C2C087D3C005FE316 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989412E2C086DA6005FE316 /* Color.swift */; };
+		F989426E2C087D5E005FE316 /* FPSCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940502C086DA6005FE316 /* FPSCounter.swift */; };
+		F989426F2C087D67005FE316 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940482C086DA6005FE316 /* LogViewController.swift */; };
+		F98942702C087D67005FE316 /* LogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940472C086DA6005FE316 /* LogCell.swift */; };
+		F98942712C087D67005FE316 /* _SwiftLogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940442C086DA6005FE316 /* _SwiftLogHelper.swift */; };
+		F989427A2C087D95005FE316 /* CocoaDebugSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989402B2C086DA6005FE316 /* CocoaDebugSettings.swift */; };
+		F989427B2C087D95005FE316 /* CocoaDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940272C086DA6005FE316 /* CocoaDebug.swift */; };
+		F989427C2C087D95005FE316 /* CocoaDebug+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98940282C086DA6005FE316 /* CocoaDebug+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -576,6 +578,8 @@
 		F989412E2C086DA6005FE316 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		F989412F2C086DA6005FE316 /* UIBlockingBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBlockingBubble.swift; sourceTree = "<group>"; };
 		F98941302C086DA6005FE316 /* WindowHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowHelper.swift; sourceTree = "<group>"; };
+		F989424B2C087A2B005FE316 /* CocoaDebugSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaDebugSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F989424D2C087A2B005FE316 /* CocoaDebugSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaDebugSwift.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -594,6 +598,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F98942482C087A2B005FE316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98942532C087AE0005FE316 /* CocoaDebug.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -603,6 +615,7 @@
 				F98940012C086D7E005FE316 /* Sources */,
 				3826DE7724EE7CDE003DE040 /* CocoaDebugTests */,
 				380965732414E04F00382668 /* Products */,
+				F98942522C087AE0005FE316 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -611,6 +624,7 @@
 			children = (
 				380965722414E04F00382668 /* CocoaDebug.framework */,
 				3826DE7624EE7CDE003DE040 /* CocoaDebugTests.xctest */,
+				F989424B2C087A2B005FE316 /* CocoaDebugSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -628,6 +642,7 @@
 			isa = PBXGroup;
 			children = (
 				F98941322C086DA6005FE316 /* CocoaDebug */,
+				F989424C2C087A2B005FE316 /* CocoaDebugSwift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -659,133 +674,6 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		F98940112C086DA6005FE316 /* App */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		F98940122C086DA6005FE316 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		F98940132C086DA6005FE316 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		F98940142C086DA6005FE316 /* CustomHTTPProtocol */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomHTTPProtocol;
-			sourceTree = "<group>";
-		};
-		F98940152C086DA6005FE316 /* fishhook */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = fishhook;
-			sourceTree = "<group>";
-		};
-		F98940162C086DA6005FE316 /* Logs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Logs;
-			sourceTree = "<group>";
-		};
-		F98940172C086DA6005FE316 /* Monitor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Monitor;
-			sourceTree = "<group>";
-		};
-		F98940182C086DA6005FE316 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		F98940192C086DA6005FE316 /* FileType */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FileType;
-			sourceTree = "<group>";
-		};
-		F989401A2C086DA6005FE316 /* images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		F989401B2C086DA6005FE316 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F98940192C086DA6005FE316 /* FileType */,
-				F989401A2C086DA6005FE316 /* images */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		F989401C2C086DA6005FE316 /* Sandbox */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sandbox;
-			sourceTree = "<group>";
-		};
-		F989401D2C086DA6005FE316 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F989401E2C086DA6005FE316 /* Swizzling */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Swizzling;
-			sourceTree = "<group>";
-		};
-		F989401F2C086DA6005FE316 /* Window */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Window;
-			sourceTree = "<group>";
-		};
-		F98940202C086DA6005FE316 /* CocoaDebug */ = {
-			isa = PBXGroup;
-			children = (
-				F98940112C086DA6005FE316 /* App */,
-				F98940122C086DA6005FE316 /* Categories */,
-				F98940132C086DA6005FE316 /* Core */,
-				F98940142C086DA6005FE316 /* CustomHTTPProtocol */,
-				F98940152C086DA6005FE316 /* fishhook */,
-				F98940162C086DA6005FE316 /* Logs */,
-				F98940172C086DA6005FE316 /* Monitor */,
-				F98940182C086DA6005FE316 /* Network */,
-				F989401B2C086DA6005FE316 /* Resources */,
-				F989401C2C086DA6005FE316 /* Sandbox */,
-				F989401D2C086DA6005FE316 /* Supporting Files */,
-				F989401E2C086DA6005FE316 /* Swizzling */,
-				F989401F2C086DA6005FE316 /* Window */,
-			);
-			path = CocoaDebug;
-			sourceTree = "<group>";
-		};
 		F989402C2C086DA6005FE316 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -795,11 +683,8 @@
 				F98940242C086DA6005FE316 /* _DeviceUtil+Constant.h */,
 				F98940252C086DA6005FE316 /* _DeviceUtil+Constant.m */,
 				F98940262C086DA6005FE316 /* CocoaDebug.h */,
-				F98940272C086DA6005FE316 /* CocoaDebug.swift */,
-				F98940282C086DA6005FE316 /* CocoaDebug+Extensions.swift */,
 				F98940292C086DA6005FE316 /* CocoaDebugDeviceInfo.h */,
 				F989402A2C086DA6005FE316 /* CocoaDebugDeviceInfo.m */,
-				F989402B2C086DA6005FE316 /* CocoaDebugSettings.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -842,11 +727,8 @@
 				F98940412C086DA6005FE316 /* _OCLogModel.m */,
 				F98940422C086DA6005FE316 /* _OCLogStoreManager.h */,
 				F98940432C086DA6005FE316 /* _OCLogStoreManager.m */,
-				F98940442C086DA6005FE316 /* _SwiftLogHelper.swift */,
 				F98940452C086DA6005FE316 /* CocoaDebugTool.h */,
 				F98940462C086DA6005FE316 /* CocoaDebugTool.m */,
-				F98940472C086DA6005FE316 /* LogCell.swift */,
-				F98940482C086DA6005FE316 /* LogViewController.swift */,
 			);
 			path = Logs;
 			sourceTree = "<group>";
@@ -860,7 +742,6 @@
 				F989404D2C086DA6005FE316 /* _DebugConsoleLabel.m */,
 				F989404E2C086DA6005FE316 /* _RunloopMonitor.h */,
 				F989404F2C086DA6005FE316 /* _RunloopMonitor.m */,
-				F98940502C086DA6005FE316 /* FPSCounter.swift */,
 			);
 			path = Monitor;
 			sourceTree = "<group>";
@@ -872,15 +753,8 @@
 				F98940532C086DA6005FE316 /* _HttpDatasource.m */,
 				F98940542C086DA6005FE316 /* _HttpModel.h */,
 				F98940552C086DA6005FE316 /* _HttpModel.m */,
-				F98940562C086DA6005FE316 /* _HTTPModel+cURL.swift */,
 				F98940572C086DA6005FE316 /* _NetworkHelper.h */,
 				F98940582C086DA6005FE316 /* _NetworkHelper.m */,
-				F98940592C086DA6005FE316 /* JsonViewController.swift */,
-				F989405A2C086DA6005FE316 /* NetworkCell.swift */,
-				F989405B2C086DA6005FE316 /* NetworkDetailCell.swift */,
-				F989405C2C086DA6005FE316 /* NetworkDetailModel.swift */,
-				F989405D2C086DA6005FE316 /* NetworkDetailViewController.swift */,
-				F989405E2C086DA6005FE316 /* NetworkViewController.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -1137,9 +1011,7 @@
 			isa = PBXGroup;
 			children = (
 				F98942452C086DAE005FE316 /* Supporting Files */,
-				F989400B2C086DA6005FE316 /* App */,
 				F98940102C086DA6005FE316 /* Categories */,
-				F98940202C086DA6005FE316 /* CocoaDebug */,
 				F989402C2C086DA6005FE316 /* Core */,
 				F98940352C086DA6005FE316 /* CustomHTTPProtocol */,
 				F98940382C086DA6005FE316 /* fishhook */,
@@ -1149,7 +1021,6 @@
 				F98941122C086DA6005FE316 /* Resources */,
 				F98941242C086DA6005FE316 /* Sandbox */,
 				F98941282C086DA6005FE316 /* Swizzling */,
-				F98941312C086DA6005FE316 /* Window */,
 			);
 			path = CocoaDebug;
 			sourceTree = "<group>";
@@ -1160,6 +1031,69 @@
 				3826DEA724EE854E003DE040 /* copy_and_codesign.sh */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F989424C2C087A2B005FE316 /* CocoaDebugSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F98942762C087D88005FE316 /* Core */,
+				F98942722C087D6E005FE316 /* Logs */,
+				F989426D2C087D57005FE316 /* Monitor */,
+				F989425D2C087D29005FE316 /* Network */,
+				F98941312C086DA6005FE316 /* Window */,
+				F989400B2C086DA6005FE316 /* App */,
+				F989424D2C087A2B005FE316 /* CocoaDebugSwift.h */,
+			);
+			path = CocoaDebugSwift;
+			sourceTree = "<group>";
+		};
+		F98942522C087AE0005FE316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F989425D2C087D29005FE316 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F98940562C086DA6005FE316 /* _HTTPModel+cURL.swift */,
+				F98940592C086DA6005FE316 /* JsonViewController.swift */,
+				F989405A2C086DA6005FE316 /* NetworkCell.swift */,
+				F989405B2C086DA6005FE316 /* NetworkDetailCell.swift */,
+				F989405C2C086DA6005FE316 /* NetworkDetailModel.swift */,
+				F989405D2C086DA6005FE316 /* NetworkDetailViewController.swift */,
+				F989405E2C086DA6005FE316 /* NetworkViewController.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F989426D2C087D57005FE316 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				F98940502C086DA6005FE316 /* FPSCounter.swift */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		F98942722C087D6E005FE316 /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				F98940442C086DA6005FE316 /* _SwiftLogHelper.swift */,
+				F98940472C086DA6005FE316 /* LogCell.swift */,
+				F98940482C086DA6005FE316 /* LogViewController.swift */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
+		F98942762C087D88005FE316 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F98940272C086DA6005FE316 /* CocoaDebug.swift */,
+				F98940282C086DA6005FE316 /* CocoaDebug+Extensions.swift */,
+				F989402B2C086DA6005FE316 /* CocoaDebugSettings.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1205,6 +1139,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F98942462C087A2B005FE316 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F989424E2C087A2B005FE316 /* CocoaDebugSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1244,6 +1186,24 @@
 			productReference = 3826DE7624EE7CDE003DE040 /* CocoaDebugTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F989424A2C087A2B005FE316 /* CocoaDebugSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F989424F2C087A2B005FE316 /* Build configuration list for PBXNativeTarget "CocoaDebugSwift" */;
+			buildPhases = (
+				F98942462C087A2B005FE316 /* Headers */,
+				F98942472C087A2B005FE316 /* Sources */,
+				F98942482C087A2B005FE316 /* Frameworks */,
+				F98942492C087A2B005FE316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaDebugSwift;
+			productName = CocoaDebugSwift;
+			productReference = F989424B2C087A2B005FE316 /* CocoaDebugSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1258,6 +1218,9 @@
 					};
 					3826DE7524EE7CDE003DE040 = {
 						CreatedOnToolsVersion = 11.6;
+					};
+					F989424A2C087A2B005FE316 = {
+						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
@@ -1275,6 +1238,7 @@
 			projectRoot = "";
 			targets = (
 				380965712414E04F00382668 /* CocoaDebug */,
+				F989424A2C087A2B005FE316 /* CocoaDebugSwift */,
 				3826DE7524EE7CDE003DE040 /* CocoaDebugTests */,
 			);
 		};
@@ -1472,6 +1436,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F98942492C087A2B005FE316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1480,60 +1451,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				F989415D2C086DA6005FE316 /* _OCLogModel.m in Sources */,
-				F98941762C086DA6005FE316 /* NetworkDetailModel.swift in Sources */,
 				F98941682C086DA6005FE316 /* _DebugConsoleLabel.m in Sources */,
-				F98942412C086DA6005FE316 /* CocoaDebugWindow.swift in Sources */,
-				F98942432C086DA6005FE316 /* UIBlockingBubble.swift in Sources */,
 				F98942342C086DA6005FE316 /* _ImageResources.m in Sources */,
 				F989422C2C086DA6005FE316 /* _FileInfo.m in Sources */,
-				F989423E2C086DA6005FE316 /* CocoaDebugNavigationController.swift in Sources */,
 				F98942302C086DA6005FE316 /* _FileTableViewCell.m in Sources */,
-				F98941732C086DA6005FE316 /* JsonViewController.swift in Sources */,
-				F98941372C086DA6005FE316 /* CrashDetailViewController.swift in Sources */,
 				F98941622C086DA6005FE316 /* CocoaDebugTool.m in Sources */,
-				F98941642C086DA6005FE316 /* LogViewController.swift in Sources */,
-				F98941342C086DA6005FE316 /* AboutViewController.swift in Sources */,
-				F98941752C086DA6005FE316 /* NetworkDetailCell.swift in Sources */,
 				F989416A2C086DA6005FE316 /* _RunloopMonitor.m in Sources */,
 				F989414E2C086DA6005FE316 /* _CanonicalRequest.m in Sources */,
 				F989422A2C086DA6005FE316 /* _DirectoryContentsTableViewController.m in Sources */,
-				F989413B2C086DA6005FE316 /* IgnoredURLsViewController.swift in Sources */,
 				F989413F2C086DA6005FE316 /* NSObject+CocoaDebug.m in Sources */,
-				F98941462C086DA6005FE316 /* CocoaDebug.swift in Sources */,
 				F98941592C086DA6005FE316 /* _OCLoggerFormat.m in Sources */,
 				F989413D2C086DA6005FE316 /* GPBMessage+CocoaDebug.m in Sources */,
-				F98941632C086DA6005FE316 /* LogCell.swift in Sources */,
-				F98941382C086DA6005FE316 /* CrashListViewController.swift in Sources */,
-				F98941602C086DA6005FE316 /* _SwiftLogHelper.swift in Sources */,
-				F98942442C086DA6005FE316 /* WindowHelper.swift in Sources */,
 				F989423B2C086DA6005FE316 /* _Swizzling.m in Sources */,
-				F98941742C086DA6005FE316 /* NetworkCell.swift in Sources */,
 				F98942372C086DA6005FE316 /* _Sandboxer.m in Sources */,
 				F989415F2C086DA6005FE316 /* _OCLogStoreManager.m in Sources */,
-				F989423D2C086DA6005FE316 /* Bubble.swift in Sources */,
-				F989413A2C086DA6005FE316 /* CrashStoreManager.swift in Sources */,
 				F98941522C086DA6005FE316 /* _QNSURLSessionDemux.m in Sources */,
 				F98941532C086DA6005FE316 /* _fishhook.c in Sources */,
 				F98942322C086DA6005FE316 /* _ImageController.m in Sources */,
 				F989422E2C086DA6005FE316 /* _FilePreviewController.m in Sources */,
-				F98941352C086DA6005FE316 /* AppInfoViewController.swift in Sources */,
-				F98941392C086DA6005FE316 /* CrashLogger.swift in Sources */,
-				F989416B2C086DA6005FE316 /* FPSCounter.swift in Sources */,
 				F98941442C086DA6005FE316 /* _DeviceUtil+Constant.m in Sources */,
-				F98941332C086DA6005FE316 /* _CrashModel.swift in Sources */,
 				F989414C2C086DA6005FE316 /* _CacheStoragePolicy.m in Sources */,
-				F98941362C086DA6005FE316 /* CrashCell.swift in Sources */,
 				F98941662C086DA6005FE316 /* _BacktraceLogger.m in Sources */,
-				F98941772C086DA6005FE316 /* NetworkDetailViewController.swift in Sources */,
-				F98942422C086DA6005FE316 /* Color.swift in Sources */,
 				F989415B2C086DA6005FE316 /* _OCLogHelper.m in Sources */,
-				F98941472C086DA6005FE316 /* CocoaDebug+Extensions.swift in Sources */,
 				F98941552C086DA6005FE316 /* _NSLogHook.m in Sources */,
-				F989414A2C086DA6005FE316 /* CocoaDebugSettings.swift in Sources */,
-				F98941782C086DA6005FE316 /* NetworkViewController.swift in Sources */,
 				F989416D2C086DA6005FE316 /* _HttpDatasource.m in Sources */,
 				F989423C2C086DA6005FE316 /* _WKWebView+Swizzling.m in Sources */,
-				F98941702C086DA6005FE316 /* _HTTPModel+cURL.swift in Sources */,
 				F989416F2C086DA6005FE316 /* _HttpModel.m in Sources */,
 				F98941572C086DA6005FE316 /* _ObjcLog.m in Sources */,
 				F98941502C086DA6005FE316 /* _CustomHTTPProtocol.m in Sources */,
@@ -1541,8 +1483,6 @@
 				F98941722C086DA6005FE316 /* _NetworkHelper.m in Sources */,
 				F98941402C086DA6005FE316 /* _AutoLaunch.m in Sources */,
 				F98941492C086DA6005FE316 /* CocoaDebugDeviceInfo.m in Sources */,
-				F98942402C086DA6005FE316 /* CocoaDebugViewController.swift in Sources */,
-				F989423F2C086DA6005FE316 /* CocoaDebugTabBarController.swift in Sources */,
 				F98941422C086DA6005FE316 /* _DeviceUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1552,6 +1492,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				3826DE7924EE7CDE003DE040 /* CocoaDebugTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98942472C087A2B005FE316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98942592C087CD3005FE316 /* CrashLogger.swift in Sources */,
+				F989425A2C087CD3005FE316 /* CrashListViewController.swift in Sources */,
+				F98942712C087D67005FE316 /* _SwiftLogHelper.swift in Sources */,
+				F989425C2C087CD6005FE316 /* IgnoredURLsViewController.swift in Sources */,
+				F989426F2C087D67005FE316 /* LogViewController.swift in Sources */,
+				F989425B2C087CD3005FE316 /* CrashStoreManager.swift in Sources */,
+				F98942582C087CCF005FE316 /* CrashDetailViewController.swift in Sources */,
+				F98942552C087CC9005FE316 /* AboutViewController.swift in Sources */,
+				F98942562C087CCB005FE316 /* AppInfoViewController.swift in Sources */,
+				F98942542C087CC7005FE316 /* _CrashModel.swift in Sources */,
+				F989425E2C087D37005FE316 /* NetworkViewController.swift in Sources */,
+				F989425F2C087D37005FE316 /* NetworkDetailCell.swift in Sources */,
+				F98942702C087D67005FE316 /* LogCell.swift in Sources */,
+				F989426E2C087D5E005FE316 /* FPSCounter.swift in Sources */,
+				F98942602C087D37005FE316 /* NetworkCell.swift in Sources */,
+				F98942652C087D3C005FE316 /* UIBlockingBubble.swift in Sources */,
+				F98942662C087D3C005FE316 /* WindowHelper.swift in Sources */,
+				F98942672C087D3C005FE316 /* CocoaDebugViewController.swift in Sources */,
+				F989427A2C087D95005FE316 /* CocoaDebugSettings.swift in Sources */,
+				F989427B2C087D95005FE316 /* CocoaDebug.swift in Sources */,
+				F989427C2C087D95005FE316 /* CocoaDebug+Extensions.swift in Sources */,
+				F98942682C087D3C005FE316 /* Bubble.swift in Sources */,
+				F98942692C087D3C005FE316 /* CocoaDebugWindow.swift in Sources */,
+				F989426A2C087D3C005FE316 /* CocoaDebugNavigationController.swift in Sources */,
+				F989426B2C087D3C005FE316 /* CocoaDebugTabBarController.swift in Sources */,
+				F989426C2C087D3C005FE316 /* Color.swift in Sources */,
+				F98942612C087D37005FE316 /* NetworkDetailModel.swift in Sources */,
+				F98942622C087D37005FE316 /* _HTTPModel+cURL.swift in Sources */,
+				F98942632C087D37005FE316 /* JsonViewController.swift in Sources */,
+				F98942642C087D37005FE316 /* NetworkDetailViewController.swift in Sources */,
+				F98942572C087CCD005FE316 /* CrashCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1746,7 +1724,6 @@
 		3826DE7E24EE7CDE003DE040 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA8SWALX42;
 				INFOPLIST_FILE = CocoaDebugTests/Info.plist;
@@ -1765,7 +1742,6 @@
 		3826DE7F24EE7CDE003DE040 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA8SWALX42;
 				INFOPLIST_FILE = CocoaDebugTests/Info.plist;
@@ -1777,6 +1753,92 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.man.CocoaDebugTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F98942502C087A2B005FE316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 man. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shopcider.CocoaDebugSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F98942512C087A2B005FE316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 man. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shopcider.CocoaDebugSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1807,6 +1869,15 @@
 			buildConfigurations = (
 				3826DE7E24EE7CDE003DE040 /* Debug */,
 				3826DE7F24EE7CDE003DE040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F989424F2C087A2B005FE316 /* Build configuration list for PBXNativeTarget "CocoaDebugSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98942502C087A2B005FE316 /* Debug */,
+				F98942512C087A2B005FE316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

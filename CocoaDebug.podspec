@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
                           'Sources/CocoaDebug/Swizzling/**/*.m',
                           'Sources/CocoaDebug/Window/**/*.m',
                           'Sources/CocoaDebug/fishhook/**/*.c',
+                          'Sources/CocoaDebugSwift/**/*.swift',
                           ]
   # s.dependency "React/Core"
   # s.dependency "Protobuf"

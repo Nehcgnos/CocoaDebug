@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CocoaDebug
 
 class ViewController: UIViewController {
 
@@ -27,6 +28,10 @@ class ViewController: UIViewController {
 
         testHTTP()
         testRedirect()
+        
+        CocoaDebugTool.log(with: "Red message", color: .red)
+        CocoaDebugTool.log(with: "Orange message", color: .orange)
+        CocoaDebugTool.log(with: "Normal message")
     }
 
     deinit {

@@ -130,6 +130,18 @@ import Foundation
             }
         }
     }
+    @objc public var bubbleBackgroundColor: UIColor = .black {
+        didSet {
+            guard showBubbleAndWindow else { return }
+            WindowHelper.shared.vc.bubble.backgroundColor = bubbleBackgroundColor
+        }
+    }
+    @objc public var bubbleTextColor: UIColor = .white {
+        didSet {
+            guard showBubbleAndWindow else { return }
+            WindowHelper.shared.vc.bubble.textColor = bubbleTextColor
+        }
+    }
     @objc public var serverURL: String? = nil {
         didSet {
             UserDefaults.standard.set(serverURL, forKey: "serverURL_CocoaDebug")

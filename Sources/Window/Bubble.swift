@@ -27,6 +27,11 @@ class Bubble: UIView {
     
     public var width: CGFloat = _width
     public var height: CGFloat = _height
+    public var textColor: UIColor = .white {
+        didSet {
+            numberLabel?.textColor = textColor
+        }
+    }
     
     private var numberLabel: UILabel? = {
         return UILabel.init()
@@ -119,13 +124,13 @@ class Bubble: UIView {
     
     
     fileprivate func initLayer() {
-        self.backgroundColor = .black
+        self.backgroundColor = CocoaDebugSettings.shared.bubbleBackgroundColor
         self.layer.cornerRadius = _width/2
         self.sizeToFit()
         
         if let numberLabel = numberLabel {
             numberLabel.text = String(networkNumber)
-            numberLabel.textColor = .white
+            numberLabel.textColor = textColor
             numberLabel.textAlignment = .center
             numberLabel.adjustsFontSizeToFitWidth = true
             numberLabel.isHidden = true

@@ -330,6 +330,8 @@ class NetworkDetailViewController: UITableViewController, MFMailComposeViewContr
         let nib = UINib(nibName: "NetworkCell", bundle: bundle)
         tableView.register(nib, forCellReuseIdentifier: "NetworkCell")
         
+        tableView.contentInsetAdjustmentBehavior = .always
+        
         //header
         headerCell = bundle.loadNibNamed(String(describing: NetworkCell.self), owner: nil, options: nil)?.first as? NetworkCell
         headerCell?.httpModel = httpModel
